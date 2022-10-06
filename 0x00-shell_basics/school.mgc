@@ -1,2 +1,3 @@
 #!/bin/bash
-0 string SCHOOL School data !:mime School Create a magic file called school.mgc that can be used with the command file to detect School data files. School data files always contain "SCHOOL" at offset 0
+\n0 string SCHOOL School data\n!:mime School
+file -c -m school.mgc
