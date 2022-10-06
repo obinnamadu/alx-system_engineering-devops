@@ -1,2 +1,3 @@
-\n0 string SCHOOL School data\n!:mime School
-file -c -a school.mgc
+#!/bin/bash
+0 string SCHOOL School data !:mime School(this is the search pattern to search any and every file for School)
+file -C -m school.mgc
